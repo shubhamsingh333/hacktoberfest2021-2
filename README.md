@@ -1,61 +1,30 @@
-#  ❗️ This Project is no longer accepting PRs since the project is excluded from hacktoberfest. 
-# Thanks to everyone for contributing and we hope it was a good learning experience on open source for you all.
+### `npm start`
 
-# ✨ hacktoberfest2021 💫
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-![banner](https://hacktoberfest.digitalocean.com/_nuxt/img/logo-hacktoberfest-full.f42e3b1.svg)
+ ### `About the Project`
+1. We will create our own API (helpful if we add another menu item it will automatically come in the website).
 
-## 🌱 Contributing to hacktoberfest 2021
 
-### Welcome to hacktoberfest 2021 Public Repository. 👨🏻‍💻
-<p>A month-long celebration from October 1st - 31st sponsored by Digital Ocean and GitHub to get people involved in Open Source. Create your very first pull request to any public repository on GitHub and contribute to the open source developer community.
+…or create a new repository on the command line
+1. echo "# restaurant" >> README.md
+2. git init
+3. git add README.md
+4. git commit -m "first commit"
+5. git branch -M main
+6. git remote add origin https://github.com/shubhamsingh333/restaurant.git
+7. git push -u origin main
 
-https://hacktoberfest.digitalocean.com/</p>
 
------
 
-### What can You contribute ⚠️ 
-* There are language Specific folders in the repository choose any you're comfortable with if not, make one.
-* Inside the language folder there will be multiple topic folders like Data Structures, Algorithms, Problems and projects.
-* Contribute any algorithm, data-structure implementation or your favourite problmes or projects.
-* Make sure your follow the below steps.
------
 
-### Process are as follows :- 
-* Login using github @ [Hacktoberfest](https://hacktoberfest.digitalocean.com/)
-* Create four valid pull requests (PRs) between 1st - 31st October
+…or push an existing repository from the command line
+1. git remote add origin https://github.com/shubhamsingh333/restaurant.git
+2. git branch -M main
+3. git push -u origin main
 
-------
-### How to Contribute to this repository
+If hot reloading problem exists then
+1. Make a .env new file and put
 
-* Fork the repository (Click the Fork button in the top right of this page, click your Profile Image)
-* Clone the forked repository to your local machine.
-```markdown
-git clone https://github.com/your-username/HacktoberFest2021.git
-```
-* change the present working directory
-```markdown
-cd HacktoberFest2021
-```
-* Add/Create your project to the specific folder as described in what you can contribute section.
-* Make a new branch
-```markdown
-git checkout -b branch-name
-```
-* Make change in the repository with the new branch.
-* push the changes.
-```markdown
-git add .
-git commit -m "Your commit Message"
-git push origin branch-name
-```
-* Make a pull request.
-* Star the repository.
-
-### NOTE
-
-* Make Sure you commit your changes in a new branch.
-* Make Sure you Give proper name to your files describing the addition.
-* Also Make Sure you comment your code whereever necessary.
-   
-<!--       END OF README           END OF README         END OF README         END OF README          END OF README           END OF README           END OF README      -->
+2. FAST_REFRESH=false 
